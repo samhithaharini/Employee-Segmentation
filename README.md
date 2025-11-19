@@ -1,73 +1,40 @@
-##Employee Segmentation using K-Nearest Neighbors (KNN)
+# **Employee Segmentation using KNN**
 
-This project performs Employee Segmentation using K-Nearest Neighbors (KNN) to group employees based on key performance metrics.
-The output helps organizations understand employee categories such as High Performers, Average Performers, and Low Performers, enabling better decision-making in HR and workforce planning.
+Employee segmentation helps organizations understand employee behavior and performance.  
+This project uses the **K-Nearest Neighbors (KNN)** algorithm to classify employees into meaningful groups based on performance-related metrics.
 
+---
 
- Project Overview
+## **📌 Project Overview**
+This project performs clustering on employee data to group employees into segments such as:
+- High Performers  
+- Average Performers  
+- Low Performers  
 
-Employee segmentation is an essential HR analytics task used to analyze employee behavior and performance patterns.
+A clean and simple **Streamlit interface** displays the predicted segment for user inputs.
 
+---
 
- In this project:
+## **🎯 Objectives**
+- Segment employees using the KNN algorithm  
+- Build an interactive Streamlit app  
+- Present employee categories in a clean, understandable format  
+- Support HR decision-making and analytics  
 
-Employee data is preprocessed
+---
 
-Features are scaled
+## **🧠 Algorithm Used: KNN**
+KNN clusters employees by comparing similarities in:
+- Age  
+- Salary  
+- Projects Completed  
+- Productivity (%)  
 
-KNN clustering is applied
+It is a simple yet powerful algorithm for segmentation tasks.
 
-Each employee is assigned to a segment
+---
 
-A simple and clean Streamlit web app is used to predict and visualize segmentation
-
-
-
- Objectives
-
-
-Segment employees using KNN algorithm
-
-Build a clean and user-friendly Streamlit interface
-
-Allow users to input employee metrics and get a predicted segment
-
-Help organizations understand workforce distribution and performance trends
-
-
-Machine Learning Algorithm: KNN
-
-
-K-Nearest Neighbors is used for segmentation based on similarity between employees.
-
-Employees closer in feature space are grouped into the same cluster.
-
-
- Why KNN?
-
-
-Simple and effective
-
-Non-parametric
-
-Good for HR datasets with smaller dimensions
-
-Easy to interpret outputs
-
-
- Features Used
-
-
-Age
-
-Salary
-
-Projects Completed
-
-Productivity (%)
-
-These features help determine employee similarity for segmentation.
-
+## **📁 Project Structure**
 
  Technologies Used
 

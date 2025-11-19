@@ -1,4 +1,4 @@
-#Employee Segmentation using K-Nearest Neighbors (KNN)
+##Employee Segmentation using K-Nearest Neighbors (KNN)
 
 This project performs Employee Segmentation using K-Nearest Neighbors (KNN) to group employees based on key performance metrics.
 The output helps organizations understand employee categories such as High Performers, Average Performers, and Low Performers, enabling better decision-making in HR and workforce planning.

@@ -112,8 +112,9 @@ Uses their cluster labels
 
 Assigns the most frequent cluster to the new employee
 
+---
 
-requirements.txt
+**requirements.txt**
 
 pandas
 

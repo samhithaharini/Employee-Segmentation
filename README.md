@@ -5,7 +5,7 @@ This project uses the **K-Nearest Neighbors (KNN)** algorithm to classify employ
 
 ---
 
-## **📌 Project Overview**
+## **Project Overview**
 This project performs clustering on employee data to group employees into segments such as:
 - High Performers  
 - Average Performers  
@@ -15,7 +15,7 @@ A clean and simple **Streamlit interface** displays the predicted segment for us
 
 ---
 
-## **🎯 Objectives**
+## **Objectives**
 - Segment employees using the KNN algorithm  
 - Build an interactive Streamlit app  
 - Present employee categories in a clean, understandable format  
@@ -23,7 +23,7 @@ A clean and simple **Streamlit interface** displays the predicted segment for us
 
 ---
 
-## **🧠 Algorithm Used: KNN**
+## **Algorithm Used: KNN**
 KNN clusters employees by comparing similarities in:
 - Age  
 - Salary  
@@ -34,25 +34,24 @@ It is a simple yet powerful algorithm for segmentation tasks.
 
 ---
 
-## **📁 Project Structure**
 
- Technologies Used
+## **Technologies Used**
 
-Python
+-Python
 
-Pandas
+-Pandas
 
-NumPy
+-NumPy
 
-Scikit-Learn
+-Scikit-Learn
 
-Streamlit
+-Streamlit
 
-Joblib / Pickle
+-Joblib / Pickle
 
+---
 
-
- How to Run the Project
+ ## **How to Run the Project**
 
 
 1️⃣ Install Dependencies
@@ -88,8 +87,9 @@ Cluster 2 → Low Performer
 (Cluster names depend on the model’s interpretation.)
 
 
-
- Output
+---
+ 
+ ## **Output**
 
 
 The app displays:
@@ -100,8 +100,10 @@ Human-readable segment meaning
 
 Clean, simple interface for HR usage
 
+---
 
-KNN Segmentation Logic
+
+## **KNN Segmentation Logic**
 
 
 The algorithm finds the k closest employees
@@ -123,8 +125,9 @@ streamlit
 
 joblib
 
+---
 
- Use Cases
+ ## **Use Cases**
 
 HR performance analysis
 
@@ -136,7 +139,9 @@ KPI-based segmentation
 
 Identifying training needs
 
- Conclusion
+---
+
+## **Conclusion**
 
 This Employee Segmentation project offers a practical and easy-to-use Streamlit interface combined with KNN clustering to categorize employees effectively.
 It is ideal for HR teams and data science learners who want to understand segmentation techniques in real business environments.
